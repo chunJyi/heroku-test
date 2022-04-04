@@ -1,12 +1,12 @@
 spring:
   datasource:
 
-    url: jdbc:postgres://ec2-3-230-122-20.compute-1.amazonaws.com:5432/dbo252p4tlo442
- #   url: jdbc:postgresql://localhost:5432/test_heroku
-    username: kzpswtsjcrdaro
-    password: a175e8de821861a93b190324287866c71ab0afcdbc66deecbb9f8720ce0da2ad
-#    username: kviglgfzpzateg
-#    password: e879a15061e62cead66ff6e40754c53717847aa4a88d9fa5395fc13786501d7a
+ #   url: jdbc:postgres://ec2-3-230-122-20.compute-1.amazonaws.com:5432/dbo252p4tlo442
+    url: jdbc:postgresql://localhost:5432/test_heroku
+#    username: kzpswtsjcrdaro
+#    password: a175e8de821861a93b190324287866c71ab0afcdbc66deecbb9f8720ce0da2ad
+    username: postgres
+    password: postgres
   jpa:
     hibernate:
       ddl-auto: update
